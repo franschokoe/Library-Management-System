@@ -30,8 +30,9 @@ int main (){
     for(int i=0 ; i<2;i++){
         for (int k = 0 ; k <3;k++){
             // outputing array
-
-            cout<<arrayDim[i][k]<<endl;
+            int mapNumber = 104000;
+            // just playing
+            cout<<arrayDim[i][k] * mapNumber * total <<endl;
         }
     }
 
