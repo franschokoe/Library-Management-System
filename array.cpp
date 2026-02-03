@@ -32,7 +32,7 @@ int main (){
             // outputing array
             int mapNumber = 104000;
             // just playing
-            cout<<arrayDim[i][k] * mapNumber * total <<endl;
+            int productNumber = arrayDim[i][k] * mapNumber * total ;
         }
     }
 
