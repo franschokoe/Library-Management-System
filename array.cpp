@@ -32,7 +32,16 @@ int main (){
             // outputing array
             int mapNumber = 104000;
             // just playing
-            int productNumber = arrayDim[i][k] * mapNumber * total ;
+            int productNumber = arrayDim[i][k] * mapNumber* total;
+            cout<<productNumber<<endl;
+
+            if (productNumber > 1000000){
+                cout<<"Products"<<arrayDim[i][k]<<" "<<productNumber<<endl;
+            }else if(productNumber <1000000){
+                int newValue =  productNumber / total ; 
+
+                cout<<"After dividing with total(15) = "<< newValue<<endl;
+            }
         }
     }
 
